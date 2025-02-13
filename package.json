@@ -1,0 +1,40 @@
+{
+  "name": "samplecatalog-app",
+  "version": "1.0.0",
+  "description": "sample catalog",
+  "main": "server.js",
+  "scripts": {
+    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Express",
+    "RestAPI",
+    "MongoDB",
+    "Mongoose"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^3.2.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-request-id": "^1.4.1",
+    "helmet": "^4.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "maskdata": "^1.1.4",
+    "mongoose": "^5.12.3",
+    "morgan": "^1.10.0",
+    "node-schedule": "^2.0.0",
+    "p-queue": "^7.1.0",
+    "pm2": "^4.5.6",
+    "request": "^2.88.2",
+    "semver": "^7.3.5",
+    "strftime": "^0.10.0",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.2"
+  }
+}
